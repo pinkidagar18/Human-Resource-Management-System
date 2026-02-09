@@ -15,7 +15,6 @@ A lightweight, full-stack web application for managing employee records and trac
 - [Getting Started](#getting-started)
 - [API Documentation](#api-documentation)
 - [Deployment](#deployment)
-- [Screenshots](#screenshots)
 - [Assumptions & Limitations](#assumptions--limitations)
 
 ## ✨ Features
@@ -330,15 +329,6 @@ GET /api/dashboard/stats
    - **Publish directory**: frontend/dist
 5. Add environment variable (same as Vercel)
 6. Click "Deploy site"
-
-## 📸 Screenshots
-
-*(Add screenshots of your deployed application here)*
-
-- Dashboard view
-- Employee management
-- Attendance tracking
-- Mobile responsive views
 
 ## 🎯 Assumptions & Limitations
 
