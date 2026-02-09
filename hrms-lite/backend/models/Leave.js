@@ -39,8 +39,7 @@ const leaveSchema = new mongoose.Schema({
     default: 'Pending'
   },
   totalDays: {
-    type: Number,
-    required: true
+    type: Number
   },
   appliedDate: {
     type: Date,
@@ -63,7 +62,7 @@ const leaveSchema = new mongoose.Schema({
 });
 
 // Calculate total days before saving
-leaveSchema.pre('save', function(next) {
+leaveSchema.pre('save', function (next) {
   if (this.startDate && this.endDate) {
     const start = new Date(this.startDate);
     const end = new Date(this.endDate);

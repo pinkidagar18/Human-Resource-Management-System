@@ -54,7 +54,7 @@ export default function Dashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent mb-2" style={{ fontFamily: 'Outfit, sans-serif' }}>
-                Welcome Back! 👋
+                Welcome Back! 
               </h1>
               <p className="text-gray-600 text-lg">Here's what's happening in your organization today</p>
             </div>
